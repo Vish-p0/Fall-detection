@@ -1,0 +1,47 @@
+# .gitignore for Fall-detection project
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+ENV/
+env/
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb~
+
+# macOS system files
+.DS_Store
+
+# Model files and datasets
+*.npy
+*.keras
+*.h5
+*.tflite
+*.pb
+*.ckpt
+prepared_dataset_50hz/
+SisFall_dataset/
+Three_Classes/
+
+# Deployment configs
+deploy_config.json
+
+# Miscellaneous
+*.sqlite3
+*.db
+*.bak
+*.tmp
+*.swp
